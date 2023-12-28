@@ -50,7 +50,7 @@ function draw() {
   boy.collide(edges);
   
   //código para redefinir plano de fundo
-  if(path.y > 400 ){
+  if(path.y > height){
     path.y = height/2;
   }
   
